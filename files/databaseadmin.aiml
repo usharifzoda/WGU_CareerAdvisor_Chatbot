@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>Database Administrator</pattern>
+	    <template>You should be looking at becoming a Database Administrator. 
+	            Databse Adminis - are people who like to create, update and delete tables, optimize sql queties 
+	            abd make sure all the information is being stored properly in tables.
+	            <button>
+	                <text>Does your spidey senses tell you want to become a Database Administrator?</text>
+	                <postback>I will become a Database Admin</postback>
+                </button>
+	            	        <button>
+	            <text>No Take Me Back!!!</text>
+	            <postback>Start</postback>
+            </button>
+	   </template>
+    </category>
+	
+	<category>
+	    <pattern>I Will become a Databse Admin</pattern>
+	    <template>You made a right choice!
+	        <button>
+	            <text>Here is the link to learn more about Databse Administrators</text>
+	            <url>https://en.wikipedia.org/wiki/Database_administrator</url>
+            </button>
+	    </template>
+    </category>
+	
+</aiml>

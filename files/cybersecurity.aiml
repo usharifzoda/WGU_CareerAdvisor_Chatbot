@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>Cyber Security</pattern>
+	    <template>Cyber Security Team - Oh these are the people, who sit in front of computers and catch people who are tyring to harm the world with their 
+	    knowledge of technology. Cyber Security experts are the the good guys who catch the internet criminals
+	        <button>
+	            <text>Do I still have your interest in catching internet cirminals?</text>
+	            <postback>Yes Cyber</postback>
+            </button>
+	        <button>
+	            <text>No Take Me Back!!!</text>
+	            <postback>Start</postback>
+            </button>
+	    </template>
+    </category>
+	
+	<category>
+	    <pattern>Yes Cyber</pattern>
+	    <template>I think you got a great future ahead of you. Cyber Security is one of the most growing fields in the world
+	    <button>
+	        <text>Learn More about 'Cyber Security'?</text>
+	        <url>https://en.wikipedia.org/wiki/Computer_security</url>
+	    </button>
+	    </template>
+    </category>
+	
+</aiml>

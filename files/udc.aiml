@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Hmm I am not sure. Type <b>'HELP'</b> if you are stuck</template>
+  </category>
+  
+  <category>
+      <pattern>hi</pattern>
+      <template>Hello back to you aspiring and confused computer science student.
+      <br/> I am here to help you choose a career
+      <br/> I need to ask you few questions before making you a suggestions.
+      <br/> Type <b>'Start'</b> or <b>'Options'</b> if you would like to start.
+      </template>
+   </category> 
+   
+   <category>
+    <pattern>HELLO</pattern>
+    <template><srai>HI</srai></template>
+    </category>
+
+    <category>
+        <pattern>Start</pattern>
+        <template>
+            
+            <button>
+                <text>I like to sit in front of computer and write code all day</text>
+               <postback>Software Developer</postback>
+            </button>
+            
+            <button>
+                <text>I like to play around with cable cords and internet routers</text>
+                <postback>Network Engineer</postback>
+            </button>
+            
+            <button>
+                <text>I like to build databases and dream in SQL Queries</text>
+                <postback>Database Administrator</postback>
+            </button>
+            
+            <button>
+                <text>I like to sit in meetings, take notes and tell people what technology to use</text>
+                <postback>Technical Project Manager</postback>
+            </button>
+            
+            <button>
+                <text>I always wanted to sit in front of black screen and hack some big bank like in the movies</text>
+                <postback>Cyber Security</postback>
+            </button>
+            
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Options</pattern>
+        <template><srai>Start</srai></template>
+    </category>
+    
+  <category>
+      <pattern>HELP</pattern>
+      <template>You can start from the beginning by writing <b>'Hi or Hello'</b> or 
+      you can write <b>'Options'</b> to start answering questions and your results
+      </template>
+  </category>
+  
+
+  
+</aiml>

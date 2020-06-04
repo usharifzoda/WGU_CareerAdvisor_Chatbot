@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>Technical Project Manager</pattern>
+	    <template>Technical Project Managers - are people who are enthusiastic about technology but are not exactly great 
+	    at writing code or building databses, but have strong Communication Skills and Writing Skills
+	    <button>
+	        <text>Are you good at Writing Technical Documents and Telling People what to do?</text>
+	        <postback>I am born to be Technical Project Manager</postback>
+        </button>
+    	        <button>
+	            <text>No Take Me Back!!!</text>
+	            <postback>Start</postback>
+            </button>
+	    </template>
+    </category>
+	
+	<category>
+	    <pattern>I am born to be Technical Project Manager</pattern>
+	    <template>I think you are born to be Technical Project Manager!
+	    <button>
+	        <text>Press here to learn more about 'Technical Project Managers'</text>
+	        <url>https://en.wikipedia.org/wiki/Project_management</url>
+        </button>
+	    </template>
+    </category>
+	
+</aiml>

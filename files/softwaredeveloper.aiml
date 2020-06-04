@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>Software Developer</pattern>
+	    <template> Software Developers - are people who spend countless hours without sleep and a lot of coffee 
+	            building applications like my master who built me - your 'friendly neighborhood career advisor'
+	    <br/> Would you like to learn more about Software Development?
+	    <button>
+	        <text>Yes to development!</text>
+	        <postback>Yes to development</postback>
+        </button>
+        	        <button>
+	            <text>No Take Me Back!!!</text>
+	            <postback>Start</postback>
+            </button>
+	    </template>
+    </category>
+	
+	<category>
+	    <pattern>Yes to development</pattern>
+	    <template>My chatbot senses tell me you will become a great Software Developer
+    	        <button>
+	                <text>Click Here to learn more about Software Development</text>
+	                <url>https://en.wikipedia.org/wiki/Software_development</url>
+                </button>
+	    </template>
+    </category>
+	
+</aiml>

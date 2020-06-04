@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>Network Engineer</pattern>
+	    <template>Network Engineers make sure all the network connectivity
+	    in between offices, servers and everything else works without issue
+	        <button>
+	            <text>Are you ready to learn about different HTTP Codes and Internet Protocols</text>
+	            <postback>Yest bring it on</postback>
+            </button>
+            	        <button>
+	            <text>No Take Me Back!!!</text>
+	            <postback>Start</postback>
+            </button>
+        </template>
+	    
+    </category>
+
+<category>
+    <pattern>Yest bring it on</pattern>
+    <template>You will make a great Network Engineer
+    
+        <button>
+            <text>Learn More about Network Engineering</text>
+            <url>https://en.wikipedia.org/wiki/Network_administrator</url>
+        </button>
+    
+    </template>
+
+</category>
+	
+</aiml>
